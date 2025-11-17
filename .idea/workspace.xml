@@ -4,108 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24c92a3b-cffd-4c8a-9086-56a2ac3bbef1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/EPD_Matching2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Custom_GPT_material/CSV_to_chunked_json.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Custom_GPT_material/Custom_GPT_Instructions" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EPD_Matching_pipeline.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EPD_matching.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EPD_utils/CO2_from_matches_and_volumes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EPD_utils/EPD_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examples/Epds/OBD_2024_I_2025-05-20T08_59_27.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examples/Ifcs/Duplex_A.ifc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ifc_utils/add_epd_pset_to_ifc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ifc_utils/color_by_confidence.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_10.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_11.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_12.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_13.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_14.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_15.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_16.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_17.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_18.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_19.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_20.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_21.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_22.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_23.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_24.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_25.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_26.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_27.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_28.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_29.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_30.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_31.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_32.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_33.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_34.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_35.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_36.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_37.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_38.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_39.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_40.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_41.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_42.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_43.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_44.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_45.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_46.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_47.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_48.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_49.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_50.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_51.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_52.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_53.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_54.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_55.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_56.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_57.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_58.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_59.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_6.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_60.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_61.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_62.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_63.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_64.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_65.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_66.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_67.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_68.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_69.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_7.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_70.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_71.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_72.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_73.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_74.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_75.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_76.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_77.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_78.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_79.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_8.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_80.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_81.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_82.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_83.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_84.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_store_oekobaudat_example/filtered_chunk_part_9.json" afterDir="false" />
+    <list default="true" id="24c92a3b-cffd-4c8a-9086-56a2ac3bbef1" name="Changes" comment="Initial commit of organized Pipeline">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,6 +95,30 @@
       <option name="presentableId" value="Default" />
       <updated>1763383766384</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit of organized Pipeline">
+      <option name="closed" value="true" />
+      <created>1763393567158</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1763393567158</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit of organized Pipeline" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit of organized Pipeline" />
   </component>
 </project>
