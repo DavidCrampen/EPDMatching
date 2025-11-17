@@ -1,0 +1,11 @@
+
+
+ifcopenshell
+openai
+numpy
+tiktoken
+tqdm
+requests
+pandas
+scikit-learn
+scipy
