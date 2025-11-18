@@ -397,24 +397,26 @@ def main(ifc_file_path, epd_csv_path, matched_epds_path, output_path, epd_config
     ifc_file.write(output_path)
     print("Wrote updated IFC to", output_path)
     # Write per-layer results to CSV for further analysis
+    return layer_results
 
+
+if __name__ == "__main__":
+    base_dir = "../"
+    output_path= os.path.join(base_dir, "Examples/outputs")
+    ifc_file_path     = os.path.join(base_dir, "Examples/Ifcs/Duplex_A.ifc")
+    epd_csv_path      = os.path.join(base_dir, "Examples/Epds/OBD_2024_I_2025-05-20T08_59_27.csv")
+    matched_epds_path = os.path.join(output_path, "matched_epds.npy")
+    ifc_output_path       = os.path.join(output_path, "Duplex_A_with_epd.ifc")
+
+    # Use the default configuration (Ökobau dataset)
+    layer_results = main(ifc_file_path, epd_csv_path, matched_epds_path, ifc_output_path)
     import csv
-    with open(os.path.join(output_path,"computed_layer_co2.csv"), "w", newline="") as f:
+
+    with open(os.path.join(output_path ,"computed_layer_co2.csv"), "w", newline="") as f:
         fieldnames = ["GlobalId", "UUID", "layer_index", "layer_name", "area_m2", "volume_m3", "co2_total"]
         w = csv.DictWriter(f, fieldnames=fieldnames)
         w.writeheader()
         w.writerows(layer_results)
-
-if __name__ == "__main__":
-    base_dir = ""
-    ifc_file_path     = os.path.join(base_dir, "Examples/Ifcs/Duplex_A.ifc")
-    epd_csv_path      = os.path.join(base_dir, "Examples/Epds/OBD_2024_I_2025-05-20T08_59_27.csv")
-    matched_epds_path = os.path.join(base_dir, "outputs/matched_epds.npy")
-    output_path       = os.path.join(base_dir, "Duplex_A_with_epd.ifc")
-
-    # Use the default configuration (Ökobau dataset)
-    main(ifc_file_path, epd_csv_path, matched_epds_path, output_path)
-
     # Example for a custom EPD dataset:
     # custom_config = {
     #     "uuid_col":     "epd_uuid",

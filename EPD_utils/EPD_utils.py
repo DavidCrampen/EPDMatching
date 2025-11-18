@@ -345,11 +345,13 @@ def run_grouped_matching(ifc_file_path, assistant_id, exclude_types=None, save_p
 
 if __name__ == "__main__":
     assistant_id = "assistants/your_assistant_id_here"  # <-- replace with your assistant ID
-
+    examples_path ="../Examples"
+    ifc_file_path = os.path.join(examples_path, "ifcs/Duplex_A.ifc")  # <-- replace with your IFC file path
+    output_path =os.path.join(examples_path,"outputs/matched_epds.npy")
     # Example usage:
     run_grouped_matching(
-        ifc_file_path="Duplex_A.ifc",  # <-- replace with your IFC file path
+        ifc_file_path=ifc_file_path,  # <-- replace with your IFC file path
         assistant_id=assistant_id,
         exclude_types=["IfcFurnishingElement", "IfcSpace", "IfcOpeningElement"],
-        save_path='matched_epds.npy'
+        save_path=output_path
     )
